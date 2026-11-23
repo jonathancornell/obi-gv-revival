@@ -1,0 +1,19 @@
+# NEVER commit device backups, tokens or captured pages: they contain credentials
+backup/
+*.bak
+*backup*.xml
+*token*
+*refresh*
+.env
+di.xml
+dm.xml
+
+# Firmware binaries are third-party: link-only, never commit them
+*.fw
+*.bsdiff
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.DS_Store
+._*
